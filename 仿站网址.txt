@@ -3,7 +3,20 @@ https://shiodakagu.com/
 https://unsplash.com/
 https://www.newzealand.com/int/
 
+a标签的4种状态及设置CSS
+a:link 超链接的默认样式
+a:visited 访问过的（已经看过的）链接样式
+a:hover 鼠标处于鼠标悬停状态的链接样式
+a:active 当鼠标左键按下时，被激活（就是鼠标按下去那一瞬间）的链接样式。 
 
+项目中可以这样用：
+
+a {color:#252525; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#ba2636;text-decoration:underline;}
+a:active {color:#ba2636;} 
+
+ 
 
 
 
